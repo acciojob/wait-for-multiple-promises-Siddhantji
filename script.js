@@ -7,10 +7,10 @@ function promise1(min,max) {
 		},w)
 	})
 }
-let arr = [promise1(1,3),promise1(1,3),promise1(1,3)];
+let arr = [promise1(1,1),promise1(1,2),promise1(1,1)];
 let tbody = document.getElementById("output");
 tbody.innerHTML = `
-<tr>
+<tr id="loading">
 <td colspan="2">Loading...</td>
 </tr>
 `;
